@@ -1,0 +1,37 @@
+.landing,
+.contents {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.animated__texts > p {
+  font-size: 18px;
+}
+.animated__texts > h1 {
+  font-size: 50px;
+}
+.animated__texts > p.bottom__para {
+  font-size: 22px;
+}
+.aboutus__btn {
+  border: none;
+  padding: 15px 35px;
+  margin-top: 30px;
+  border-radius: 25px;
+  font-weight: 550;
+  background-color: #ed6c11;
+  color: white;
+  box-shadow: 0px -1px 19px -6px rgba(237, 108, 17, 1);
+}
+
+.partners__logo {
+  background-color: #6b12be;
+  padding: 20px;
+}
+.partners__logo img {
+  width: 80vw;
+  object-fit: contain;
+}

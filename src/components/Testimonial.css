@@ -1,0 +1,46 @@
+.testimonial {
+  width: 100vw;
+  height: 100vh;
+}
+.testimonial,
+.contents__container,
+.comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.comment__word {
+  width: 700px;
+  margin: 20px 0px;
+}
+
+.testimonial__header {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #891dbb;
+}
+.contents__container h2 {
+  font-size: 40px;
+}
+.comment .quote__icon > .MuiSvgIcon-root {
+  margin: 30px;
+  background-color: #ed6c11;
+  font-size: 40px;
+  padding: 20px;
+  color: white;
+  border-radius: 50%;
+}
+.comment__word,
+.comment__name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.star__rating {
+  color: #ed6c11;
+}

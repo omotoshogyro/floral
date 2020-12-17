@@ -1,0 +1,60 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contents {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  padding: 100px 50px 50px;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #1d044b;
+  color: rgba(255, 255, 255, 0.95);
+}
+.social,
+.useful__links,
+.getin__touch,
+.terms__condition {
+  flex: 1;
+  text-align: left;
+  justify-self: center;
+}
+.links__list > li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border-left: 1px solid #ed6c11;
+  transition: all .3s ease-in;
+}
+.links__list > li:hover{
+    color: #ed6c11;
+    cursor: pointer;
+}
+
+.contact__list > li {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.social__icons > .MuiSvgIcon-root {
+  background-color: rgba(109, 63, 189, 0.562);
+  margin: 20px 10px 0px 0px;
+  padding: 10px;
+  font-size: 18px;
+  transition: transform 0.5s ease-in-out;
+}
+.social__icons > .MuiSvgIcon-root:hover {
+  background-color: rgba(59, 123, 206, 0.562);
+  transform: rotate(360deg);
+}
+.footer__info {
+  margin: 20px 0px;
+}
+.footer__header {
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.last__footer {
+  padding: 20px;
+}

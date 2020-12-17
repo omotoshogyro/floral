@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.sectiontwo__contents {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 40px;
+}
+
+.sectiontwo__header {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #891dbb;
+}
+.sectiontwo__subheader {
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.sectiontwo__divs {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+.sectiontwo__firstdiv,
+.sectiontwo__seconddiv {
+  display: flex;
+  background-color: white;
+  height: auto;
+  box-sizing: border-box;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 0px 20px;
+  border: 1px solid rgba(236, 236, 236, 0.644);
+  box-shadow: 0px 2px 16px -4px rgba(230, 230, 230, 1);
+  
+}
+.sectiontwo__firstdiv:hover > .secondicon__section,
+.sectiontwo__seconddiv:hover > .secondicon__section {
+  transform: rotate(360deg);
+}
+.firsticon__section {
+  flex: 0.5;
+  height: 100%;
+}
+/* .icon__bg {
+  background-color: green;
+  
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  transform: skew(-20deg) translateX(50px);
+  position: relative;
+  animation: transform 3s ease-in-out;
+  animation-fill-mode: forwards;
+}
+.icon__bg:hover {
+  transform: skew(20deg) translateX(50px);
+} */
+/* 
+.first__icon {
+  padding: 15px;
+  font-size: 40px;
+  color: white;
+} */
+
+.words {
+  text-align: left;
+  margin: 20px;
+  /* width: 300px; */
+  justify-self: center;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.secondicon__section {
+  flex: 0.2;
+  transition: all .5s ease-in-out;
+}
+.secondicon__section > .MuiSvgIcon-root {
+  font-size: 12px;
+  color: white;
+}
+
+.second__icon {
+  padding: 8px 15px;
+  background: #891dbb;
+  border-radius: 5px;
+}
+.btn__sectiontwo {
+  border: none;
+  border-radius: 25px;
+  margin-bottom: 50px;
+  background-color: #891dbb;
+  padding: 15px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0px -1px 19px -6px rgb(60, 13, 95);
+}
