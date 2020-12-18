@@ -25,3 +25,13 @@
   text-transform: uppercase;
   margin-bottom: 25px;
 }
+
+.video__contents > video{
+  width: 100%;
+}
+
+@media (max-width: 526px){
+  .videosection__header {
+    font-size: 40px;
+  }
+}

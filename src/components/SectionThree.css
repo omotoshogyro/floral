@@ -11,7 +11,6 @@
 
 .leftpart__contents{
     text-align: left;
-    flex: .7;
 }
 .option__list > li{
     margin-bottom: 20px;
@@ -23,7 +22,7 @@
     letter-spacing: 6px;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #891dbb;
+    color:  #541484;
 }
 .sectionthree__subheader{
     font-size: 40px;
@@ -34,16 +33,29 @@
     color: white;
     border: none;
     font-size: 16px;
-    background-color:  #891dbb;
+    background-color:  #541484;
     text-transform: capitalize;
     font-weight: bold;
     border-radius: 25px;
     box-shadow: 0px -1px 19px -6px rgb(60, 13, 95);
 }
 .rightpart__contents > img{
-    width: 450px;
+    width: 370px;
     padding: 15px;
     border-radius: 50%;
     border: 1px solid rgba(192, 192, 192, 0.342);
     box-shadow: 0px -1px 19px 0px rgba(191, 191, 191, 0.37);
+}
+
+@media (max-width: 888px){
+    .sectionthree__contents{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .rightpart__contents > img{
+        max-width: 100%;
+    }       
+    .leftpart__contents{
+        margin-bottom: 20px;
+    }
 }

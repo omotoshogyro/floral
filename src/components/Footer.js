@@ -12,7 +12,7 @@ function Footer() {
             <div className="footer__contents">
                 <div className="social">
                     <img src="florallogo.png" alt=""/>
-                    <p className='footer__info'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, sequi atque voluptates dolore velit pariatur nihil numquam sint tempore.</p>
+                    <p className='footer__info'>The foremost online property verification and Real Estate investment company that helps clients to acquire verified properties and invest in verified deals.</p>
                     <div className="social__icons">
                         <FacebookIcon />
                         <TwitterIcon />

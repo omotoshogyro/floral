@@ -14,7 +14,7 @@ function VideoSection() {
     >
       <div className="video__contents">
         <h3 className="videosection__header">what we stand for</h3>
-        <video id="player" playsinline controls width="1200px">
+        <video id="player" playsinline controls >
           <source
             src="https://florahomesgc.com/assets/movies/home_video.mp4"
             type="video/mp4"

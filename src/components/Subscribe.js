@@ -14,7 +14,7 @@ function Subscribe() {
                 </div>
 
                 <p className="subscribe__text">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil mollitia, <br></br>consectetur dolor repudiandae id fuga sed reprehenderit consequuntur
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil mollitia, consectetur dolor repudiandae id fuga sed reprehenderit consequuntur
                 </p>
 
                 <div className="subscribe__input">

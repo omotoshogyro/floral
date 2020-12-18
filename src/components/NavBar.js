@@ -39,7 +39,6 @@ function NavBar() {
                         <li className='navbar__menus'>Subscription</li>
                     </ul>
                 </div>
-                
 
                 <div className="other__stuff">
                     <ul >
@@ -53,7 +52,6 @@ function NavBar() {
                         </li>
                     </ul>
                 </div>
-                
                 
             </div>
         

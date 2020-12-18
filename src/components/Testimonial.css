@@ -1,6 +1,7 @@
 .testimonial {
   width: 100vw;
   height: 100vh;
+
 }
 .testimonial,
 .contents__container,
@@ -13,7 +14,7 @@
 }
 
 .comment__word {
-  width: 700px;
+  width: 60vw;
   margin: 20px 0px;
 }
 
@@ -23,7 +24,7 @@
   letter-spacing: 6px;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #891dbb;
+  color: #541484;
 }
 .contents__container h2 {
   font-size: 40px;

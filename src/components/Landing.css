@@ -10,7 +10,7 @@
 .animated__texts > p {
   font-size: 18px;
 }
-.animated__texts > h1 {
+.animated__texts .large__text {
   font-size: 50px;
 }
 .animated__texts > p.bottom__para {
@@ -22,16 +22,31 @@
   margin-top: 30px;
   border-radius: 25px;
   font-weight: 550;
-  background-color: #ed6c11;
+  background-color: rgb(237, 108, 17);
   color: white;
-  box-shadow: 0px -1px 19px -6px rgba(237, 108, 17, 1);
+  box-shadow: 0px -1px 19px -6px rgba(rgb(237, 108, 17), 1);
 }
 
 .partners__logo {
-  background-color: #6b12be;
+  background-color: #541484;
   padding: 20px;
 }
 .partners__logo img {
   width: 80vw;
   object-fit: contain;
+}
+
+@media (max-width: 800px) {
+  .animated__texts > h1 {
+    font-size: 40px;
+  }
+  .animated__texts {
+    padding: 0px 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .animated__texts > h1 {
+    font-size: 35px;
+  }
 }

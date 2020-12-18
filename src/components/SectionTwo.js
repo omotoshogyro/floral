@@ -14,12 +14,9 @@ function SectionTwo() {
 
         <div className="sectiontwo__divs">
           <div className="sectiontwo__firstdiv">
-            {/* <div className="firsticon__section">
-              <div className="icon__bg"></div>
-              <span className="for__icons">
-                <SearchIcon className="first__icon" />
-              </span>
-            </div> */}
+            <div className="icon-box">
+                <HomeOutlinedIcon className="icon-box__icon" />
+            </div>
 
             <div className="words">
               <h3 className="sectiontwoword__header">Verification Service</h3>
@@ -36,12 +33,9 @@ function SectionTwo() {
             </div>
           </div>
           <div className="sectiontwo__seconddiv">
-            {/* <div className="firsticon__section">
-              <div className="icon__bg"></div>
-              <span className="for__icons">
-                <SearchIcon className="first__icon" />
-              </span>
-            </div> */}
+            <div className="icon-box">
+                <SearchIcon className="icon-box__icon" />
+            </div>
 
             <div className="words">
               <h3 className="sectiontwoword__header">Complete Property Buyer Services</h3>

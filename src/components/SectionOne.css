@@ -1,7 +1,7 @@
 .marginated__image > img {
   width: 80vw;
   height: auto;
-  background-color: #891dbb;
+  background-color:  #541484;
   padding: 40px 60px;
   margin-top: -80px;
   /* object-fit: contain; */
@@ -22,7 +22,7 @@
   letter-spacing: 6px;
   font-weight: 600;
   margin-bottom: 15px;
-  color: #891dbb;
+  color:  #541484;
 }
 .first__section > img {
   border-radius: 50%;
@@ -37,7 +37,7 @@
   font-style: 14px;
 }
 .second__section {
-  background-color: #67128f;
+  background-color:  #541484;
   padding-top: 100px;
   padding-left: 50px;
   color: white;
@@ -49,7 +49,7 @@
   margin-right: 30px;
 }
 .second__word {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .second__sectionbtn {
   border: none;
@@ -60,6 +60,7 @@
   background-color: #ed6c11;
   color: white;
   box-shadow: 0px -1px 19px -6px rgba(237, 108, 17, 1);
+  margin-bottom: 20px;
 }
 .section__image,
 .text__contents {
@@ -67,4 +68,44 @@
 }
 .text__contents {
   text-align: left;
+}
+@media (max-width: 1078px){
+  .sectionone__contents{
+    margin-top: 100px;
+  }
+  
+  .first__section {
+    flex-direction: column-reverse;
+    padding: 10px;
+    padding-top: 100px;
+  }
+  .first__section > img {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 0px;
+  }
+  .second__image {
+    margin-right: 0px;
+    width: 100%;
+    height: auto;
+  }
+  .second__section {
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 100px;
+    height: auto;
+  }
+  .second__header{
+    font-size: 30px;
+  }
+  .text__contents{
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 350px){
+  .marginated__image > img {
+    padding: 40px 31px;
+  }
 }
