@@ -37,7 +37,7 @@
 }
 
 @media (max-width: 800px) {
-  .animated__texts > h1 {
+  .animated__texts .large__text {
     font-size: 40px;
   }
   .animated__texts {
@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 350px) {
-  .animated__texts > h1 {
+  .animated__texts .large__text {
     font-size: 35px;
   }
 }
